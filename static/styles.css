@@ -1,0 +1,101 @@
+div.main{
+    margin: 30px;
+    padding: 20px;
+    border: 2px solid black;
+    background:rgba(0, 0, 0, 0.822);
+}
+body{
+    background: url("/static/images/dark-souls.jpg") no-repeat center center fixed;
+    max-width: 100%;
+    height: auto;
+    background-size: 100% 100%;
+}
+.bonfire{
+    max-width: 60px;
+    height: 60px
+}
+.bg-black{
+    background-color: black;
+}
+.white-text{
+    color:whitesmoke;
+}
+.black-text{
+    color: black;
+}
+.cover-image {
+    margin: 30px;
+    max-width: 175px;
+    height: auto
+}
+.description-image{
+    margin: 30px;
+    width: 480px;
+    height:auto
+}
+.cover-image2{
+    margin: 30px;
+    max-width: 90%;
+    min-width: 340px;
+    height:auto;
+    object-fit: contain;
+}
+.description-image2{
+    margin: 30px;
+    width: 45%;
+    min-width: 340px;
+    height:auto;
+}
+.white-line {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.795);
+}
+.description-class{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:190px;
+}
+.class-logos{
+    width: 28px;
+    text-align: center;
+}
+.white-outline {
+    border-color: aliceblue;
+    border-width: 1px;
+    border-style: solid;
+    margin:7px;
+    max-width: 300px;
+    min-width: 210px
+}
+.class-table{
+    margin-right: auto;
+    margin-left: auto;
+    overflow: auto;
+}
+ .construction{
+    margin: 30px;
+    max-width: 35%;
+    min-width: 340px;
+    height:auto;
+    object-fit: contain;
+}
+.btn:hover {
+    color: #fff;
+    background-color:firebrick;
+}
+.area-image{
+    max-width: 320px;
+    height:auto
+}
+.area-map{
+    margin: 30px;
+    max-width: 175px;
+    height:auto
+}
+.area-image2{
+    max-width: 320px;
+    height:auto
+}
+.area-map2{
+    padding:20px;
+}

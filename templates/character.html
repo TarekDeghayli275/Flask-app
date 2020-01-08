@@ -1,0 +1,284 @@
+{% extends "baseTemplate.html" %}
+
+{% block title %}{{ super() }} - Character{% endblock %}
+
+{% block body %}{{ super() }}
+    <div class="main">
+            <div class="white-text clearfix"><h3 class="font-weight-bold white-text"><u><img class="bonfire" src="/static/images/bonfire.png">Dark Sousl 3 - Starter Classes</u></h3>
+                <p class="white-text ">
+                        Classes in Dark Souls 3 determine the starting Stats and Equipment of the player. There are 10 Classes in Dark Souls 3
+                        that the player can begin the game with, and any of them can be customized by leveling up and adding points to different
+                        stats. Classes are listed below:
+                </p>
+            </div>
+            <br>
+            <div class="container">
+                <div class="row" >
+                    <div class="col white-outline">
+                        <h3 class="text-center white-text">Knight</h3>
+                        <div>
+                            <img class="description-class text-center" src="/static/images/knight_small.jpg">
+                        </div>
+                        <div class="table">
+                            <table class="table white-text text-center">
+                                <tbody>
+                                    <tr>
+                                        <td> <p class="section"><img class=" class-logos" src="/static/images/Level.jpg" > 9</p> </td>
+                                        <td> <p class="section"><img class=" class-logos" src="/static/images/STR.jpg" > 13</p> </td>
+                                    </tr>
+                                    <tr>
+                                        <td> <p class="section"><img class=" class-logos" src="/static/images/VGR.jpg" > 12</p> </td>
+                                        <td> <p class="section"><img class=" class-logos" src="/static/images/DEX.jpg" > 12</p> </td>
+                                    </tr>
+                                    <tr>
+                                        <td> <p class="section"><img class=" class-logos" src="/static/images/ATN.jpg" > 10</p> </td>
+                                        <td> <p class="section"><img class=" class-logos" src="/static/images/INT.jpg" > 9</p> </td>
+                                    </tr>
+                                    <tr>
+                                        <td> <p class="section"><img class=" class-logos" src="/static/images/END.jpg" > 11</p> </td>
+                                        <td> <p class="section"><img class=" class-logos" src="/static/images/FTH.jpg" > 9</p> </td>
+                                    </tr>
+                                    <tr>
+                                        <td><p class="section"><img class=" class-logos" src="/static/images/VIT.jpg"> 15</p></td>
+                                        <td><p class="section"><img class=" class-logos"src="/static/images/luck.jpg">7</p></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="col white-outline" >
+                        <h3 class="text-center white-text">Mercenary</h3>
+                        <div>
+                            <img class="description-class text-center" src="/static/images/mercenary_small.jpg">
+                        </div>
+                        <div class="table">
+                            <table class="table white-text text-center">
+                                <tbody>
+                                    <tr>
+                                        <td> <p class="section"><img class=" class-logos" src="/static/images/Level.jpg" > 8</p> </td>
+                                        <td> <p class="section"><img class=" class-logos" src="/static/images/STR.jpg" > 10</p> </td>
+                                    </tr>
+                                    <tr>
+                                        <td> <p class="section"><img class=" class-logos" src="/static/images/VGR.jpg" > 11</p> </td>
+                                        <td> <p class="section"><img class=" class-logos" src="/static/images/DEX.jpg" > 16</p> </td>
+                                    </tr>
+                                    <tr>
+                                        <td> <p class="section"><img class=" class-logos" src="/static/images/ATN.jpg" > 12</p> </td>
+                                        <td> <p class="section"><img class=" class-logos" src="/static/images/INT.jpg" > 10</p> </td>
+                                    </tr>
+                                    <tr>
+                                        <td> <p class="section"><img class=" class-logos" src="/static/images/END.jpg" > 11</p> </td>
+                                        <td> <p class="section"><img class=" class-logos" src="/static/images/FTH.jpg" > 8</p> </td>
+                                    </tr>
+                                    <tr>
+                                        <td><p class="section"><img class=" class-logos" src="/static/images/VIT.jpg"> 10</p></td>
+                                        <td><p class="section"><img class=" class-logos" src="/static/images/luck.jpg">9</p></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="col white-outline" >
+                        <h3 class="text-center white-text">Warrior</h3>
+                        <div>
+                            <img class="description-class text-center" src="/static/images/warrior_small.jpg">
+                        </div>
+                        <div class="table">
+                            <table class="table white-text text-center">
+                                <tbody>
+                                    <tr>
+                                        <td> <p class="section"><img class=" class-logos" src="/static/images/Level.jpg" > 7</p> </td>
+                                        <td> <p class="section"><img class=" class-logos" src="/static/images/STR.jpg" > 16</p> </td>
+                                    </tr>
+                                    <tr>
+                                        <td> <p class="section"><img class=" class-logos" src="/static/images/VGR.jpg" > 14</p> </td>
+                                        <td> <p class="section"><img class=" class-logos" src="/static/images/DEX.jpg" > 9</p> </td>
+                                    </tr>
+                                    <tr>
+                                        <td> <p class="section"><img class=" class-logos" src="/static/images/ATN.jpg" > 6</p> </td>
+                                        <td> <p class="section"><img class=" class-logos" src="/static/images/INT.jpg" > 8</p> </td>
+                                    </tr>
+                                    <tr>
+                                        <td> <p class="section"><img class=" class-logos" src="/static/images/END.jpg" > 12</p> </td>
+                                        <td> <p class="section"><img class=" class-logos" src="/static/images/FTH.jpg" > 9</p> </td>
+                                    </tr>
+                                    <tr>
+                                        <td><p class="section"><img class=" class-logos" src="/static/images/VIT.jpg"> 11</p></td>
+                                        <td><p class="section"><img class=" class-logos" src="/static/images/luck.jpg">11</p></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="col white-outline" >
+                        <h3 class="text-center white-text">Herald</h3>
+                        <div>
+                            <img class="description-class text-center" src="/static/images/herald_small.jpg">
+                        </div>
+                        <div class="table">
+                            <table class="table white-text text-center">
+                                <tbody>
+                                    <tr>
+                                        <td> <p class="section"><img class=" class-logos" src="/static/images/Level.jpg" > 9</p> </td>
+                                        <td> <p class="section"><img class=" class-logos" src="/static/images/STR.jpg" > 12</p> </td>
+                                    </tr>
+                                    <tr>
+                                        <td> <p class="section"><img class=" class-logos" src="/static/images/VGR.jpg" > 12</p> </td>
+                                        <td> <p class="section"><img class=" class-logos" src="/static/images/DEX.jpg" > 11</p> </td>
+                                    </tr>
+                                    <tr>
+                                        <td> <p class="section"><img class=" class-logos" src="/static/images/ATN.jpg" > 10</p> </td>
+                                        <td> <p class="section"><img class=" class-logos" src="/static/images/INT.jpg" > 8</p> </td>
+                                    </tr>
+                                    <tr>
+                                        <td> <p class="section"><img class=" class-logos" src="/static/images/END.jpg" > 9</p> </td>
+                                        <td> <p class="section"><img class=" class-logos" src="/static/images/FTH.jpg" > 13</p> </td>
+                                    </tr>
+                                    <tr>
+                                        <td><p class="section"><img class=" class-logos" src="/static/images/VIT.jpg"> 12</p></td>
+                                        <td><p class="section"><img class=" class-logos" src="/static/images/luck.jpg">11</p></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="col white-outline" >
+                        <h3 class="text-center white-text">Thief</h3>
+                        <div>
+                            <img class="description-class text-center" src="/static/images/thief_small.jpg">
+                        </div>
+                        <div class="table">
+                            <table class="table white-text text-center">
+                                <tbody>
+                                    <tr>
+                                        <td> <p class="section"><img class=" class-logos" src="/static/images/Level.jpg" > 5</p> </td>
+                                        <td> <p class="section"><img class=" class-logos" src="/static/images/STR.jpg" > 9</p> </td>
+                                    </tr>
+                                    <tr>
+                                        <td> <p class="section"><img class=" class-logos" src="/static/images/VGR.jpg" > 10</p> </td>
+                                        <td> <p class="section"><img class=" class-logos" src="/static/images/DEX.jpg" > 13</p> </td>
+                                    </tr>
+                                    <tr>
+                                        <td> <p class="section"><img class=" class-logos" src="/static/images/ATN.jpg" > 11</p> </td>
+                                        <td> <p class="section"><img class=" class-logos" src="/static/images/INT.jpg" > 10</p> </td>
+                                    </tr>
+                                    <tr>
+                                        <td> <p class="section"><img class=" class-logos" src="/static/images/END.jpg" > 10</p> </td>
+                                        <td> <p class="section"><img class=" class-logos" src="/static/images/FTH.jpg" > 8</p> </td>
+                                    </tr>
+                                    <tr>
+                                        <td><p class="section"><img class=" class-logos" src="/static/images/VIT.jpg"> 9</p></td>
+                                        <td><p class="section"><img class=" class-logos" src="/static/images/luck.jpg">14</p></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="white-line">
+            </div>
+            <br>
+            <h3 class="white-text text-center">Quick Class Comparison Table</h3>
+            <div class="table-responsive-lg">
+                <table class="class-table table white-text white-outline">
+                    <tbody>
+                        <tr>
+                            <td></td>
+                            <td><img class=" class-logos" src="/static/images/Level.jpg" ><br>LV</td>
+                            <td><img class=" class-logos" src="/static/images/VGR.jpg" ><br>Vgr</td>
+                            <td><img class=" class-logos" src="/static/images/ATN.jpg" ><br>Att</td>
+                            <td><img class=" class-logos" src="/static/images/END.jpg" ><br>End</td>
+                            <td><img class=" class-logos" src="/static/images/VIT.jpg" ><br>Vit</td>
+                            <td><img class=" class-logos" src="/static/images/STR.jpg" ><br>Str</td>
+                            <td><img class=" class-logos" src="/static/images/DEX.jpg" ><br>Dex</td>
+                            <td><img class=" class-logos" src="/static/images/INT.jpg" ><br>Int</td>
+                            <td><img class=" class-logos" src="/static/images/FTH.jpg" ><br>Fth</td>
+                            <td><img class=" class-logos" src="/static/images/luck.jpg"><br>Luck</td>
+                        </tr>
+                        {% for row in table %}
+                            </tr>
+                                <td >{{  row[0]  }}</td>
+                                <td >{{  row[1]  }}</td>
+                                <td >{{  row[2]  }}</td>
+                                <td >{{  row[3]  }}</td>
+                                <td >{{  row[4]  }}</td>
+                                <td >{{  row[5]  }}</td>
+                                <td >{{  row[6]  }}</td>
+                                <td >{{  row[7]  }}</td>
+                                <td >{{  row[8]  }}</td>
+                                <td >{{  row[9]  }}</td>
+                                <td >{{  row[10]  }}</td>
+                            </tr>
+                         {% endfor %}
+{#                        <tr>#}
+{#                            <td>Knight</td>#}
+{#                            <td >&nbsp;9</td>#}
+{#                            <td >12</td>#}
+{#                            <td >10</td>#}
+{#                            <td >11</td>#}
+{#                            <td >15</td>#}
+{#                            <td >13</td>#}
+{#                            <td >12</td>#}
+{#                            <td >9</td>#}
+{#                            <td >9</td>#}
+{#                            <td >&nbsp;7</td>#}
+{#                        </tr>#}
+{#                        <tr>#}
+{#                            <td>Mercenary</td>#}
+{#                            <td >&nbsp;8</td>#}
+{#                            <td >11</td>#}
+{#                            <td >12</td>#}
+{#                            <td >11</td>#}
+{#                            <td >10</td>#}
+{#                            <td >10</td>#}
+{#                            <td >16</td>#}
+{#                            <td >10</td>#}
+{#                            <td >8</td>#}
+{#                            <td >&nbsp;9</td>#}
+{#                        </tr>#}
+{#                        <tr>#}
+{#                            <td>Warrior</td>#}
+{#                            <td >&nbsp;7</td>#}
+{#                            <td >14</td>#}
+{#                            <td >6</td>#}
+{#                            <td >12</td>#}
+{#                            <td >11</td>#}
+{#                            <td >16</td>#}
+{#                            <td >9</td>#}
+{#                            <td >8</td>#}
+{#                            <td >9</td>#}
+{#                            <td >&nbsp;11</td>#}
+{#                        </tr>#}
+{#                        <tr>#}
+{#                            <td>Herald</td>#}
+{#                            <td >&nbsp;9</td>#}
+{#                            <td >12</td>#}
+{#                            <td >10</td>#}
+{#                            <td >9</td>#}
+{#                            <td >12</td>#}
+{#                            <td >12</td>#}
+{#                            <td >11</td>#}
+{#                            <td >8</td>#}
+{#                            <td >13</td>#}
+{#                            <td >&nbsp;11</td>#}
+{#                        </tr>#}
+{#                        <tr>#}
+{#                            <td>Thief</td>#}
+{#                            <td >&nbsp;5</td>#}
+{#                            <td >10</td>#}
+{#                            <td >11</td>#}
+{#                            <td >10</td>#}
+{#                            <td >9</td>#}
+{#                            <td >9</td>#}
+{#                            <td >13</td>#}
+{#                            <td >10</td>#}
+{#                            <td >8</td>#}
+{#                            <td >&nbsp;14</td>#}
+{#                        </tr>#}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+{% endblock %}

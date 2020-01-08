@@ -1,0 +1,59 @@
+{% extends "baseTemplate.html" %}
+
+{% block title %}{{ super() }}- HomePage{% endblock %}
+
+{% block body %}
+    {{ super() }}
+    <div class="main">
+            <div class="white-text clearfix"><h3 class="font-weight-bold white-text"><u><img class="bonfire" src="/static/images/bonfire.png">Overview</u></h3>
+                <p class="white-text">
+                        Dark Souls 3 is an action RPG for the Xbox One, PlayStation 4, and PC in which players are thrust into a gothic fantasy world
+                        and asked to survive against brutal odds. The narrative connects to the first two games, but story takes a backseat to action,
+                        so newcomers won’t feel totally lost. In Dark Souls 3, players travel to Lothric, a land of ash and decay. Your task is to defeat
+                        the Lords of Cinder, god-like creatures corrupted by power. It’s expected that you’ll die, as the game is full of enemies (and traps)
+                        meant to kill you constantly. Learning from failure is Souls 101, but as you level up and learn to memorize enemy patterns,
+                        your path becomes less perilous.
+                        <br><br>
+                        Dark Souls 3 is the ultimate game to test a gamers skills...
+                </p>
+            </div>
+            <div class="clearfix">
+                <div class="description-image float-right responsive">
+                    <iframe width="430" height="300" src="https://www.youtube.com/embed/0J4u1FD87FM"
+                        frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                    </iframe>
+                </div>
+                <div class="white-text "><h3 class="font-weight-bold white-text"><u><img class="bonfire" src="/static/images/bonfire.png">Gameplay</u></h3>
+                    <p class="white-text">In Dark Souls III the player controls a character from a third-person perspective through the dark fantasy
+                         world of Lothric.  The gameplay is similar to other entries in the series, players are equipped with a variety of weapons,
+                         items, and magic to battle against enemies.  Similarities to other titles in the series, such as Bonfires, which serve as
+                         progress-saving "checkpoints", and Estus Flasks, which serve as health and magic/skill replenishing itmes return.
+                         New gameplay elements include the return of the magic meter from Demon's Souls, and a new combat system, giving player's
+                         additional weapon-specific skills that provide power-ups or deliver powerful special attacks. Combat is faster and more
+                         fluid in Dark Souls III than previous installments, and players' movements, such as backstepping and swinging heavy weapons,
+                         are performed more rapidly.
+                    </p>
+                </div>
+            </div>
+            <div class="clearfix">
+                <div class="float-right responsive">
+                        <img class="description-image rounded" src="/static/images/hud.jpg">
+                </div>
+                <div class="white-text "><h3 class="font-weight-bold white-text"><u><img class="bonfire" src="/static/images/bonfire.png">HUD Explanation</u></h3>
+
+                    <ol class="white-text;">
+
+                        {% for items in listItems %}
+                            <li>
+                                <dl>
+                                    <dt>{{ items[0] }}</dt>
+                                    <dd>{{ items[1] }}</dd>
+                                </dl>
+                            </li>
+                        {% endfor %}
+
+                    </ol>
+                </div>
+            </div>
+        </div>
+{% endblock %}

@@ -1,0 +1,56 @@
+{% extends "baseTemplate.html" %}
+
+{% block title %}{{ super() }} - maps{% endblock %}
+
+{% block body %}
+    {{ super() }}
+        <div class="main">
+            <div class="float-right responsive">
+                <img style="margin: 30px;max-width: 300px;height:auto" class="rounded clearfix" src="/static/images/world-map.jpg">
+            </div>
+            <div class="white-text clearfix"><h3 class="font-weight-bold white-text"><u><img class="bonfire" src="/static/images/bonfire.png">Lothric</u></h3>
+                <p class="white-text">
+                        Situated upon a massive protrusion of rock, the walls and castles of Lothric are a testament to its former glory and mightiness.
+                        However, upon the Ashen One's arrival, the kingdom is in apparent ruin: Virtually all of the inhabitants have reduced to Hollows,
+                        and the courtyards and castle pathways are littered with the remains of deceased knights and soldiers, indicating a great battle had
+                        taken place in the past. The few that remain have gone Hollow and are immediately hostile to the player. The kingdom is also
+                        suffering from an infestation of Pus of Man.
+                </p>
+                <h3 class="font-weight-bold white-text"><u><img class="bonfire" src="/static/images/bonfire.png">Quick Area List</u></h3>
+
+                 {% for item in listName %}
+                     <a class="btn white-text" href="{{ item[0] }}" role="button">{{ item[1] }}</a>
+                 {% endfor %}
+
+            </div>
+            <div class="white-line"></div>
+            <div>
+                <h3 class="font-weight-bold white-text"><img class="bonfire" src="/static/images/bonfire.png"><u>Maps</u></h3>
+                <div class="container">
+                    <div class="row mb-5">
+                        <div id="anarLondo" class="col area-map2 text-center">
+                            <a class="white-text" href="anorLondo">Anar Londo <br> <img class= "area-image"src="/static/images/anor_londo.jpg"></a>
+                        </div>
+                        <div id="archdragonPeak" class="col area-map2 text-center">
+                            <a class="white-text" href="construction">Archdragon Peak <br> <img class= "area-image"src="/static/images/archdragon_peak.jpg"></a>
+                        </div>
+                        <div id="cc" class="col area-map2 text-center">
+                            <a class="white-text" href="construction">Catacombs of Carthus <br> <img class= "area-image"src="/static/images/catacombs_of_carthus.jpg"></a>
+                        </div>
+                        <div id="cd" class="col area-map2 text-center">
+                                <a class="white-text" href="construction">Cathedral of the Deep <br> <img class= "area-image"src="/static/images/cathedral_of_the_deep.jpg"></a>
+                        </div>
+                        <div id="ca" class="col area-map2 text-center">
+                                <a class="white-text" href="construction">Cemetery of Ash <br> <img class= "area-image"src="/static/images/cemetary_of_ash.jpg"></a>
+                        </div>
+                        <div id="ck" class="col area-map2 text-center">
+                                <a class="white-text" href="construction">Consumed King's Garden <br> <img class= "area-image"src="/static/images/consumed_kings_garden.jpg"></a>
+                        </div>
+                        <div id="fk" class="col area-map2 text-center">
+                                <a class="white-text" href="construction">Farron Keep  <br> <img class= "area-image"src="/static/images/farron_keep.jpg"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+{% endblock %}

@@ -1,0 +1,6 @@
+Energy gauge, Your current life force. This goes down as you take damage; you will die if it hits zero. Rest at a bonfire or use an Estus Flask to heal.
+Magic/battle skill gauge, This goes down as you use magic or battle skills. When it hits zero you will no longer be able to use magic and your battle skills will become seriously weakened. Rest at a bonfire or use an Ash Estus Flask to heal.
+Stamina gauge, Your current stamina. This goes down as you attack or dash or dodge or perform other actions. When it hits zero you won't be able to use actions that consume stamina. Stamina automatically refills over time.
+Battle skill icon, Shows whether you have a battle skill available or not.
+Equipment slots, Shows your currently-equipped weapons and items and magic. Use the directional buttons to switch between your equipment. Right: Right-hand weapon. Left: Left-hand weapon. Down: Item. Up: Magic
+Souls possessed, The total numbers of souls you currently have.
